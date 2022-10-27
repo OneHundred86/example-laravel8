@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('params_and_files', 'App\Http\Controllers\V1Controller@postParamsAndFiles');
